@@ -889,3 +889,32 @@ header {
     background-size: auto;
   }
 }
+
+.contact_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 120px 24px;
+  height: 844px;
+  width: 375px;
+}
+
+.contact_paragraph {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 327px;
+  height: 216px;
+  margin-left: 24px;
+}
+
+.paragh_1 {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  font-family: inter sans-serif;
+  color: #172B4D;
+  ;
+}
