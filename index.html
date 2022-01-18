@@ -77,27 +77,28 @@
     </section>
 
     <section class="contact_section">
+        <div class="contact_paragraph">
         <p class="paragh_1">
-            I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
+            I'm always <br>interested in hearing <br>about new projects, so if you'd like to chat please get in touch.
         </p>
-        <form action="" method="post"> 
+    </div>
+    <div class="contact_form">
+        <form action="https://formspree.io/f/meqnezez" method="post"> 
             <input type="text" name="input1" placeholder="Full name" max="30" required class="input1">
+            <hr>
             <input type="email" name="input2" placeholder="Email address" required class="input2">
+            <hr>  
             <textarea name="input3" placeholder="Message" class="input3"
             rows="15"
             cols="10" 
             maxlength="500"
-            required
-            >
-
+            required>
             </textarea>
-
+            <button type="submit" class="contact_button">Get in touch</button>
         </form>
-
-
+    </div>
     </section>
 
-    
     <footer class="contact">
         <ul class="container socialGroup">
             <li class="social-media">
@@ -122,7 +123,5 @@
             </li>
         </ul>
     </footer>
-
 </body>
-
 </html>
