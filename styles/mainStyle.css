@@ -870,22 +870,6 @@ header {
   }
 }
 
-@media screen and (min-width: 672px) and (max-width: 1230px) {
-  .featured {
-    grid-column: 1/span 2;
-  }
-}
-
-@media screen and (min-width: 1190px) {
-  .gridContainer {
-    grid-template-columns: repeat(3, 1fr);
-  }
-
-  .featured {
-    grid-column: 1/span 3;
-  }
-
-  #presentation {
-    background-size: auto;
-  }
+.input3 {
+  border: 1px solid #767676;
 }
