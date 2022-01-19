@@ -945,6 +945,7 @@ header {
   background-color: #ff6800;
   margin-top: 24px;
   margin-bottom: 24px;
+  color: white;
 }
 
 .input1, .input2, .input3 {
@@ -982,12 +983,16 @@ input {
   width: 327px;
   height: 114px;
   background-color: #fbf8f7;
-  color: #172B4D !important;
-  
+  color:#3C3A39;
+  ;
 }
 
 hr {
   color: #dbd8d7;
   height: 1px;
   width: 327px;
+}
+
+.contact_button:hover {
+  background-color: #3C3A39;
 }
