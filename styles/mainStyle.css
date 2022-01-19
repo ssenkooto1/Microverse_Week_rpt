@@ -863,12 +863,9 @@ header {
 }
 
 @media screen and (min-width: 672px) and (max-width: 1000px) {
-  
-  /* Frame and toolbar styling */
   #presentation {
     justify-content: flex-start;
     background-image: url(../images/Illustration-header.svg);
-    background-position: right;
     background-size: 50%;
     background-position: 100% -20%;
   }
@@ -1097,10 +1094,6 @@ header {
     color: rgba(244, 245, 247, 1);
   }
 
-  #menuButton {
-    display: none;
-  }
-  
   .header_name {
     border: 1px solid #f55800;
     display: flex;
@@ -1229,10 +1222,6 @@ header {
     margin-top: 24px;
     padding: 14px;
   }
-/* 
-  p {
-    font-size: 16px;
-  } */
 
   .contact_btn {
     background-color: #ff6b00;
