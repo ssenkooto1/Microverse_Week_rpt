@@ -873,7 +873,6 @@ header {
     background-position: 100% -20%;
   }
 
-
   #presentation .content {
     flex-direction: row-reverse;
     width: 50vw;
@@ -883,8 +882,6 @@ header {
     flex-direction: column;
     margin-right: 70px;
   }
-
-
 
   .container h1 {
     font-size: 72px;
@@ -1165,7 +1162,7 @@ header {
     flex-direction: row;
     margin-left: 135px;
     padding-top: 130px;
-    height: 590x;
+    height: 590px;
   }
 
   .contact_header {
@@ -1232,10 +1229,10 @@ header {
     margin-top: 24px;
     padding: 14px;
   }
-
+/* 
   p {
     font-size: 16px;
-  }
+  } */
 
   .contact_btn {
     background-color: #ff6b00;
