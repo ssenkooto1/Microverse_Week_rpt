@@ -17,7 +17,7 @@ This is a Portfolio that works as a presentation card for a Software developer, 
 
 To get a local copy up and running follow these simple example steps.
 
-- Clone this repository with git clone```https://github.com/ssenkooto1/hello-world.git``` using your terminal or command line.
+- Clone this repository with git clone```https://github.com/ssenkooto1/Microverse_Week_rpt.git``` using your terminal or command line.
 - Change to the project directory by entering : <br>
 ```cd hello-world``` in the terminal
 
@@ -33,7 +33,7 @@ If you want to set up a personal repository based on this one, you can as well f
 ### Install
 Only if you want to run Linter checks locally.
 
-If you're a Microverse Student, reference to this link to get detailed instructions on how to set up linters locally to check this project.
+Reference to this link to get detailed instructions on how to set up linters locally to check this project.
 
 [Linters Config HTML/CSS](https://github.com/microverseinc/linters-config/tree/master/html-css-js)
 

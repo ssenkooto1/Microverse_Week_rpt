@@ -631,6 +631,16 @@ header {
   background-position: 95% center;
 }
 
+@media screen and (max-width: 1000px) {
+  #menu {
+    display: none;
+  }
+
+  #navigation {
+    display: none;
+  }
+}
+
 @media screen and (min-width: 1000px) {
   /* Frame and toolbar styling */
   #presentation {
@@ -1111,7 +1121,7 @@ header {
   }
 
   #navigation {
-    display: block;
+    display: none;
   }
 
   .header_title {
