@@ -98,13 +98,17 @@ header {
   color: rgba(255, 245, 225, 1);
 }
 
+#menuButton {
+  display: block;
+}
+
 .toolbar button {
   box-sizing: border-box;
   margin-right: 24px;
 }
 
 #navigation {
-  display: none;
+  display: block;
 }
 
 /* Frame Styling */
@@ -900,10 +904,6 @@ header {
 
   #menuButton {
     display: block;
-  }
-
-  #navigation {
-    display: flex;
   }
 
   .toolbar ul {
