@@ -733,13 +733,27 @@ header {
 }
 
 .contact_btn:hover {
-  background-color: aqua;
+  background-color: rgba(255, 245, 225, 1);
+  border: 1px solid rgba(245, 88, 0, 1);
+  color: rgba(245, 88, 0, 1);
 }
 
 .contact_btn:active {
   background-color: #e05304;
   color: #f4f1f0;
 }
+
+.contact_btn:focus {
+  background-color: rgba(224, 83, 4, 1);
+  border: none;
+  padding: 20px;
+  color: rgba(244, 241, 240, 1);
+}
+
+.contact_btn:disabled {
+  background-color: rgba(244, 241, 240, 1);
+  color: rgba(91, 89, 87, 1);
+} 
 
 .header_title {
   position: absolute;
@@ -1155,8 +1169,22 @@ header {
   }
 
   .contact_btn:hover {
-    background-color: #2c6e66;
+    background-color: rgba(255, 245, 225, 1);
+    border: 1px solid rgba(245, 88, 0, 1);
+    color: rgba(245, 88, 0, 1);
   }
+
+  .contact_btn:focus {
+    background-color: rgba(224, 83, 4, 1);
+    border: none;
+    padding: 20px;
+    color: rgba(244, 241, 240, 1);
+  }
+
+  .contact_btn:disabled {
+    background-color: rgba(244, 241, 240, 1);
+    color: rgba(91, 89, 87, 1);
+  } 
 
   #navigation {
     display: block;
@@ -1164,6 +1192,10 @@ header {
 
   #menuButton {
     display: none;
+  }
+
+  .contact_header {
+    text-align: left;
   }
 }
 
@@ -1546,8 +1578,22 @@ header {
   }
 
   .contact_btn:hover {
-    background-color: #2c6e66;
+    background-color: rgba(255, 245, 225, 1);
+    border: 1px solid rgba(245, 88, 0, 1);
+    color: rgba(245, 88, 0, 1);
   }
+
+  .contact_btn:focus {
+    background-color: rgba(224, 83, 4, 1);
+    border: none;
+    padding: 20px;
+    color: rgba(244, 241, 240, 1);
+  }
+
+  .contact_btn:disabled {
+    background-color: rgba(244, 241, 240, 1);
+    color: rgba(91, 89, 87, 1);
+  } 
 
   #navigation {
     display: block;
@@ -1555,5 +1601,9 @@ header {
 
   #menuButton {
     display: none;
+  }
+
+  .contact_header {
+    text-align: left;
   }
 }
