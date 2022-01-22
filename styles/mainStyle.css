@@ -642,7 +642,6 @@ header {
 }
 
 @media screen and (min-width: 1100px) {
-  
   #presentation {
     justify-content: flex-start;
     background-image: url(../images/Illustration-header.svg);
@@ -663,10 +662,8 @@ header {
 
   .gridContainer {
     padding: 0 10vw;
-    grid-auto-columns: minmax(260px,auto);
-    /* grid-auto-columns: minmax(200px, auto); */
+    grid-auto-columns: minmax(260px, auto);
     grid-template-columns: repeat(auto-fit, minmax(209px, 1fr));
-    grid-template-columns: 3;
   }
 
   .featured {
@@ -742,12 +739,6 @@ header {
     flex-grow: 1;
     width: auto;
     margin: 0;
-  }
-
-
-  .featured {
-    flex-direction: row;
-    align-items: flex-start;
   }
 
   .featured img {
@@ -1065,7 +1056,6 @@ header {
     flex-grow: 0;
     align-content: flex-start;
   }
-
 
 }
 
