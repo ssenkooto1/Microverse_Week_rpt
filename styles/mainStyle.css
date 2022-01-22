@@ -732,7 +732,7 @@ header {
   transition: background-color 2s;
 }
 
-.contact_btn:hover { 
+.contact_btn:hover {
   background-color: aqua;
 }
 
@@ -776,7 +776,6 @@ header {
   align-items: flex-end;
 }
 
-
 @media screen and (min-width: 992px) and (max-width: 1100px) {
   #presentation {
     justify-content: flex-start;
@@ -798,16 +797,9 @@ header {
 
   .gridContainer {
     padding: 0 10vw;
-    grid-auto-columns: minmax(260px,auto);
-    /* grid-auto-columns: minmax(200px, auto); */
+    grid-auto-columns: minmax(260px, auto);
     grid-template-columns: repeat(auto-fit, minmax(209px, 1fr));
-    grid-template-columns: 3;
   }
-
-  /* .card .featured {
-    grid-template-rows: 1;
-    grid-template-columns: 2;
-  } */
 
   .featured {
     grid-column: 1 / span 3;
@@ -820,7 +812,6 @@ header {
   .pre_paragraph {
     margin-bottom: 25.6%;
   }
-
 
   .container h1 {
     font-size: 72px;
@@ -1172,7 +1163,7 @@ header {
     transition: background-color 100ms;
   }
 
-  .contact_btn:hover { 
+  .contact_btn:hover {
     background-color: #2c6e66;
   }
 
