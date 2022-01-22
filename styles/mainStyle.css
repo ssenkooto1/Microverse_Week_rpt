@@ -1101,6 +1101,7 @@ header {
     justify-content: flex-start;
     align-content: flex-start;
     margin-top: 130px;
+    text-align: left;
   }
 
   .contact_form {
@@ -1192,10 +1193,6 @@ header {
 
   #menuButton {
     display: none;
-  }
-
-  .contact_header {
-    text-align: left;
   }
 }
 
