@@ -801,10 +801,6 @@ header {
     grid-template-columns: repeat(auto-fit, minmax(209px, 1fr));
   }
 
-  .featured {
-    grid-column: 1 / span 3;
-  }
-
   .pre_header {
     margin-top: 19.5%;
   }
@@ -879,6 +875,7 @@ header {
   .featured {
     flex-direction: row;
     align-items: flex-start;
+    grid-column: 1 / span 3;
   }
 
   .featured img {
