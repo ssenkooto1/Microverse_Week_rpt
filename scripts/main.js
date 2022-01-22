@@ -47,7 +47,7 @@ took a standar dummy text.`, `Lorem Ipsum is simply dummy text of the printing a
 cards.push(featured);
 
 while (counter <= 6) {
-  const other = createCard('images/sampleproject.svg', 'Profesional Art Printing Data',
+  const other = createCard('images/sampleproject.svg', 'Profesional Art Printing Data.',
     `A daily selection of privately personalized reads; no accounts or sign-ups required. 
   has been the industry's standard`, `Lorem Ipsum is simply dummy text of the printing and typesetting industry.
  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
