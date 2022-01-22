@@ -827,10 +827,6 @@ header {
     line-height: 32px;
   }
 
-  #menuButton {
-    display: block;
-  }
-
   .toolbar ul {
     justify-content: space-around;
   }
@@ -1031,10 +1027,6 @@ header {
     border: 1px solid #f55800;
   }
 
-  #navigation {
-    display: none;
-  }
-
   .header_title {
     position: absolute;
     background: #3c3a39;
@@ -1171,7 +1163,7 @@ header {
   #menuButton {
     display: none;
   }
-
+  
   .contact_section {
     /* margin-top: 130px; */
     display: flex;
