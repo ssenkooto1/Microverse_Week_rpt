@@ -753,7 +753,7 @@ header {
 .contact_btn:disabled {
   background-color: rgba(244, 241, 240, 1);
   color: rgba(91, 89, 87, 1);
-} 
+}
 
 .header_title {
   position: absolute;
@@ -1184,7 +1184,7 @@ header {
   .contact_btn:disabled {
     background-color: rgba(244, 241, 240, 1);
     color: rgba(91, 89, 87, 1);
-  } 
+  }
 
   #navigation {
     display: block;
@@ -1510,6 +1510,7 @@ header {
     justify-content: flex-start;
     align-content: flex-start;
     margin-top: 130px;
+    text-align: left;
   }
 
   .contact_form {
@@ -1593,7 +1594,7 @@ header {
   .contact_btn:disabled {
     background-color: rgba(244, 241, 240, 1);
     color: rgba(91, 89, 87, 1);
-  } 
+  }
 
   #navigation {
     display: block;
@@ -1601,9 +1602,5 @@ header {
 
   #menuButton {
     display: none;
-  }
-
-  .contact_header {
-    text-align: left;
   }
 }
