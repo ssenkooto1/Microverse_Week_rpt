@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio: mobile version
+# Portfolio: Desktop version
 
 > This is the Third Project and i have added a portfolio section showing the projects worked on. 
 
