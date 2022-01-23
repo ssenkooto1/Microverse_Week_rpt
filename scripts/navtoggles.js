@@ -1,5 +1,5 @@
 function myFunction() {
-  let x = document.getElementById('menu');
+  const x = document.getElementById('menu');
   if (x.style.display === 'block') {
     x.style.display = 'none';
   } else {
@@ -7,7 +7,7 @@ function myFunction() {
   }
 }
 function myclosingFunction() {
-  let xy = document.getElementById('menu');
+  const xy = document.getElementById('menu');
   if (xy.style.display === 'block') {
     xy.style.display = 'none';
   } else {
@@ -15,7 +15,7 @@ function myclosingFunction() {
   }
 }
 function closenav() {
-  let xz = document.getElementById('menu');
+  const xz = document.getElementById('menu');
   xz.style.display = 'none';
 }
 myFunction();
