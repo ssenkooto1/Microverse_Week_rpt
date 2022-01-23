@@ -4,17 +4,17 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <script src="scripts/main.js" defer></script>
+    <script src="scripts/navtoggles.js" defer></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/mainStyle.css" />
     <title>Stephen's portfolio</title>
   </head>
-
-  <body>
+  <body>    
     <header>
         <nav class="toolbar">
             <ul>
                 <li class="textPlaceholder"> <a href="#" aria-label="Ssenkooto Stephen"> Ssenkooto Stephen </a> </li>
-                <li> <button id="menuButton" type="button"> <img src="icons/menu.svg" alt=""> </button></li>
+                <li> <button id="menuButton" type="button" onclick="myFunction()"> <img src="icons/menu.svg" alt=""> </button></li>
                 <li id="navigation">
                     <ul class="container">
                         <li class="textPlaceholder"><a href="#projects" aria-label="Portfolio"> Portfolio</a></li>
@@ -27,12 +27,12 @@
             </ul>
         </nav>
     </header>
-    <section class="menu-invisible">
-        <button type="button" id="closeButton"><img src="icons/close-icon.svg" alt="close icon"></button>
+    <section id="menu" class="menu-invisible">
+        <button type="button" id="closeButton" onclick="myclosingFunction()"><img src="icons/close-icon.svg" alt="close icon"></button>
         <ul class="container content menu">
-            <li class="textPlaceholder menu-item"><a href="#projects" aria-label="Portfolio"> Portfolio</a></li>
-            <li class="textPlaceholder menu-item"><a href="#about" aria-label="About"> About</a></li>
-            <li class="textPlaceholder menu-item"><a href="#contact" aria-label="Contact"> Contact</a></li>
+            <li class="textPlaceholder menu-item" onclick="closenav()"><a href="#projects" aria-label="Portfolio"> Portfolio</a></li>
+            <li class="textPlaceholder menu-item" onclick="closenav()"><a href="#about" aria-label="About"> About</a></li>
+            <li class="textPlaceholder menu-item" onclick="closenav()"><a href="#contact" aria-label="Contact"> Contact</a></li>
         </ul>
     </section>
     <section id="presentation" class="container">
