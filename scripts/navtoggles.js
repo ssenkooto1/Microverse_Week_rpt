@@ -1,23 +1,23 @@
-  function myFunction() {
-    var x = document.getElementById('menu');
-    if (x.style.display === 'block') {
-      x.style.display = 'none';
-    } else {
-      x.style.display = 'block';
-    }
-  }
-  function myclosingFunction() {
-    var x = document.getElementById('menu');
-    if (x.style.display === 'block') {
-      x.style.display = 'none';
-    } else {
-      x.style.display = 'block';
-    }
-  }
-  function closenav() {
-    var x = document.getElementById('menu');
+function myFunction() {
+  let x = document.getElementById('menu');
+  if (x.style.display === 'block') {
     x.style.display = 'none';
+  } else {
+    x.style.display = 'block';
   }
-  myFunction();
-  myclosingFunction();
-  closenav();
+}
+function myclosingFunction() {
+  let x = document.getElementById('menu');
+  if (x.style.display === 'block') {
+    x.style.display = 'none';
+  } else {
+    x.style.display = 'block';
+  }
+}
+function closenav() {
+  let x = document.getElementById('menu');
+  x.style.display = 'none';
+}
+myFunction();
+myclosingFunction();
+closenav();
